@@ -23,9 +23,8 @@ describe('fatorial', () => {
 
   // Tratamento de erro com números negativos
   it('deve lançar um erro para fatorial de um número negativo', () => {
-    // Para testar se uma função lança um erro, ela precisa ser chamada dentro de outra função
     expect(() => fatorial(-1)).toThrow("Fatorial não é definido para números negativos.");
-    expect(() => fatorial(-5)).toThrowError("Fatorial não é definido para números negativos."); // Outra forma de escrever
+    expect(() => fatorial(-5)).toThrowError("Fatorial não é definido para números negativos.");
   });
 
   // Garantir que não inteiros também lancem erro
