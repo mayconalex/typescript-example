@@ -13,3 +13,5 @@ export function fatorial(n: number): number {
 
   return resultado;
 }
+
+// branch criada: feature/1-implementar-e-testar-a-funcao-fatorial
