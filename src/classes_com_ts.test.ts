@@ -1,7 +1,7 @@
 import { Livro, ProdutoEletronico, Veiculo, Carro, Bicicleta } 
 from '../src/classes_com_ts';
 
-describe('Testes de Programação Orientada a Objetos', () => {
+describe('Testes de Classes com TS', () => {
 
   // testes para a questão 1 =====
   describe('Interfaces - Descrevivel', () => {
